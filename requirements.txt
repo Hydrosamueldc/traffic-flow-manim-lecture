@@ -1,0 +1,4 @@
+manim
+manim-voiceover
+edge-tts
+imageio-ffmpeg

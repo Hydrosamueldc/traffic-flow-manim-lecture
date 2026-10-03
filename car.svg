@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 115">
+  <!--
+    Side-view sedan silhouette — facing RIGHT (direction of travel).
+    Drawn for Manim SVGMobject compatibility.
+    Sub-object index map (Manim parse order):
+      [0]  body path
+      [1]  glass path
+      [2]  B-pillar rect
+      [3]  rear wheel outer
+      [4]  rear wheel mid
+      [5]  rear wheel hub
+      [6]  front wheel outer
+      [7]  front wheel mid
+      [8]  front wheel hub
+      [9]  headlight
+      [10] tail light
+      [11] rear door line
+      [12] front door line
+  -->
+
+  <!-- [0] Main body with wheel arches carved via Q bezier -->
+  <path d="M 30,86 L 30,70 Q 34,62 44,57 L 72,18 Q 76,17 84,17 L 218,17 Q 224,17 232,24 L 248,44 L 261,63 Q 265,69 265,76 L 265,86 L 230,86 Q 212,46 194,86 L 108,86 Q 90,46 72,86 Z"
+        fill="#3a7bd5" stroke="#0d1117" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- [1] Cabin glass -->
+  <path d="M 74,18 L 84,17 L 218,17 L 230,24 L 246,44 L 222,62 L 78,62 Z"
+        fill="#c0dff0" fill-opacity="0.72" stroke="#88aacc" stroke-width="0.5"/>
+
+  <!-- [2] B-pillar -->
+  <rect x="148" y="17" width="7" height="45" fill="#2358a8" rx="1"/>
+
+  <!-- [3-5] Rear wheel -->
+  <circle cx="90" cy="86" r="18" fill="#111111" stroke="#2a2a2a" stroke-width="1"/>
+  <circle cx="90" cy="86" r="10" fill="#3a3a3a"/>
+  <circle cx="90" cy="86" r="4.5" fill="#888888"/>
+
+  <!-- [6-8] Front wheel -->
+  <circle cx="212" cy="86" r="18" fill="#111111" stroke="#2a2a2a" stroke-width="1"/>
+  <circle cx="212" cy="86" r="10" fill="#3a3a3a"/>
+  <circle cx="212" cy="86" r="4.5" fill="#888888"/>
+
+  <!-- [9] Headlight -->
+  <ellipse cx="264" cy="72" rx="4" ry="7" fill="#ffffbb" stroke="#bbbb55" stroke-width="0.6"/>
+
+  <!-- [10] Tail light -->
+  <rect x="29" y="66" width="5" height="13" rx="2" fill="#dd2020"/>
+
+  <!-- [11] Rear door line -->
+  <line x1="78" y1="62" x2="78" y2="82" stroke="#2358a8" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- [12] Front door line -->
+  <line x1="222" y1="62" x2="222" y2="82" stroke="#2358a8" stroke-width="1.2" stroke-linecap="round"/>
+</svg>
