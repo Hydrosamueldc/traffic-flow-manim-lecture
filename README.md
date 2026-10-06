@@ -2,6 +2,10 @@
 
 An animated, 16-scene introduction to traffic-flow theory and numerical methods, built with Manim. Topics include density, velocity, flow, the Greenshields model, conservation laws, characteristics, shock waves, rarefaction waves, and finite-difference schemes.
 
+## Watch
+
+[Watch the full lecture on YouTube](https://youtu.be/AyCQ6vkNUt8)
+
 ## Requirements
 
 - Python 3.10 or newer
